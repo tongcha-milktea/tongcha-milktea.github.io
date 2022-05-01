@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.header ul li{
+	display: inline;
+	float: right;
+	margin: 55px 39px;
+	margin-bottom: -10px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 200;
+}
+.header h1{
+	position: absolute;
+	left: 9%;
+	top: 6%;
+}
+.header img{
+	float: left;
+	margin: 20px 50px;
+}
+.header button{
+	background-color: transparent;
+	padding: 10px 40px;
+	margin: -10px 10px;
+	border-radius: 30px;
+	border-color:#000000;
+	font-weight: 200;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.header button:hover{
+	padding: 11px 41px;
+}
+.header a{
+	color: #000000;
+}
+.header li:hover{
+	text-decoration: underline;
+}
+.header i:hover{
+	color:#CE2D11;
+}
+.header i{
+	font-size: 22px;
+}
+.banner h4{
+	font-family: roboto;
+	font-size: 100px;
+	position: absolute;
+	top: 40%;
+	left:34%;
+	color:white;
+	letter-spacing: 20px;
+}
+.grid-container {
+  	display: grid;
+ 	grid-template-columns: auto auto auto;
+	margin: 200px 0px;
+}
+.grid-item {
+ 	text-align: center;
+}
+.grid-item h3{
+	font-family: roboto;
+	font-weight: 500;
+	padding: 20px 0px;
+}
+.ss2 h1{
+	position: absolute;
+	left: 41.5%;
+	top:103%;
+	font-size: 30px;
+	font-family: roboto;
+	font-weight: 700;
+	letter-spacing: 10px;
+	text-decoration: underline;
+	Color: #CE2D11;
+}
+
+.grid-item button{
+	background-color: transparent;
+	padding: 8px 25px;
+	border-radius: 60px;
+	border-color:#000000;
+	font-family: roboto;
+	letter-spacing: 2px;
+}
+.grid-item button:hover{
+	background-color:#F84447;
+	color: white;
+	border: none;
+	padding: 11px 30px;
+	transition: background-color 1s, color 0.5s;
+}
+.ss3{
+	background-image: url("img_main_fruits-drink-2.png");
+	background-size: cover;
+	height: 900px;
+}
+.ss3 button{
+	background-color: #F84447;
+	padding: 20px 45px;
+	border-radius: 60px;
+	font-family: roboto;
+	letter-spacing: 2px;
+	color: white;
+	border: none;
+	font-size: 20px;
+	position: absolute;
+	top: 336%;
+	left: 40%;
+}
+.ss3 button:hover{
+	padding: 23px 48px;
+	font-size: 25px;
+	transition: padding 1s, font-size 1s;
+}
+.grid_ss4{
+	display: grid;
+ 	grid-template-columns: auto auto auto;
+	margin: 200px 0px;
+	justify-content: space-around;
+}
+.grid_ss4 h4{
+	font-family: roboto;
+	letter-spacing: 2px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+.grid_ss4 img:hover{
+	height: 260px;
+	transition: height 1s;
+}
+.grid_ss4 h2{
+	position: relative;
+	left: 130%;
+	Top:200%;
+	font-size: 30px;
+	font-family: roboto;
+	font-weight: 700;
+	letter-spacing: 10px;
+	text-decoration: underline;
+	Color: #CE2D11;
+}
+.ss5{
+	background-image: url("ss5.1.jpg");
+	background-size: cover;
+	height: 500px;
+}
+.ss5 h2{
+	font-family: roboto;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 90px;
+	position: absolute;
+	top: 475%;
+	left: 12.5%;
+
+}
+.ss5 button{
+	position: absolute;
+	top: 495%;
+	left: 55%;
+	background-color: #F84447;
+	padding: 10px 40px;
+	border-radius: 60px;
+	font-family: roboto;
+	letter-spacing: 2px;
+	color: white;
+	border: none;
+	font-size: 20px;
+}
+.ss5 button:hover{
+	padding: 12px 42px;
+	font-size: 22px;
+	transition: padding 0.5s, font-size 0.5s;
+}
+.ss6 ul li {
+	display: inline;
+	text-align: center;
+	padding: 20px 20px;
+	letter-spacing: 3px;
+}
+.end{
+	font-family: roboto;
+	text-align: center;
+	font-weight: 500;
+	margin: 0px 0px;
+	clear: both;
+}
+.canh{
+	white-space:pre-wrap;
+}
+.ss6 a{
+	color: #000000;
+}
+.ss6 i:hover{
+	color:#CE2D11;
+}
+.ss6 i{
+	font-size: 22px;
+	margin: 40px 20px;
+}
+.canhgiua {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
